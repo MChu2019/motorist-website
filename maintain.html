@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maintain — Motorist</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-nav" aria-label="Open navigation">☰</button>
+    <a class="brand" href="index.html">Motorist</a>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="buy.html">Buy</a>
+      <a href="sell.html">Sell</a>
+      <a href="maintain.html">Maintain</a>
+      <a href="drive.html">Drive</a>
+      <a href="index.html#resources">Resources</a>
+    </nav>
+    <a class="header-action" href="sell.html">Sell My Car</a>
+  </div>
+  <nav id="mobile-nav" class="mobile-nav" data-mobile-nav aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="buy.html">Buy</a>
+    <a href="sell.html">Sell</a>
+    <a href="maintain.html">Maintain</a>
+    <a href="drive.html">Drive</a>
+    <a href="index.html#resources">Resources</a>
+    <a class="mobile-primary" href="sell.html">Sell My Car</a>
+  </nav>
+</header>
+
+<main class="page">
+  <section class="hero">
+    <div class="hero-copy">
+      <h1>Keep your car running safely and smoothly.</h1>
+      <p>Find trusted workshops, compare insurance plans, and get immediate road assistance when you need it most.</p>
+    </div>
+    <figure class="image-card">
+      <img src="images/workshop-service.PNG" alt="Mechanic inspecting a car at an automotive workshop" width="1200" height="800">
+    </figure>
+  </section>
+
+  <section class="section">
+    <div class="task-grid">
+      <a class="task-card" href="#workshop"><strong>Find a Workshop</strong><span>Find trusted workshops near you.</span></a>
+      <a class="task-card" href="#insurance"><strong>Get Insurance</strong><span>Compare and renew plans.</span></a>
+      <a class="task-card" href="#warranty"><strong>Find a Warranty</strong><span>Protect against unexpected bills.</span></a>
+      <a class="task-card" href="#assist"><strong>Road & Valet Assist</strong><span>24/7 emergency support.</span></a>
+    </div>
+  </section>
+
+  <section class="section split" id="workshop">
+    <div class="panel">
+      <h2>Find a Workshop</h2>
+      <form action="#" method="get">
+        <div class="form-grid">
+          <div class="field full">
+            <label for="location">Location</label>
+            <input id="location" name="location" type="text">
+          </div>
+          <div class="field">
+            <label for="service">Service needed</label>
+            <select id="service" name="service"><option>Service needed</option></select>
+          </div>
+          <div class="field">
+            <label for="car-make">Car make</label>
+            <select id="car-make" name="car-make"><option>Car make</option></select>
+          </div>
+          <div class="field full">
+            <label for="specialist">Workshop / specialist name</label>
+            <input id="specialist" name="specialist" type="text">
+          </div>
+        </div>
+        <div class="form-action">
+          <button class="primary-action" type="submit">Find a Workshop</button>
+        </div>
+      </form>
+    </div>
+
+    <div>
+      <div class="section-head">
+        <h2>Service categories</h2>
+      </div>
+      <div class="tool-grid">
+        <a class="tool" href="#servicing">Servicing</a>
+        <a class="tool" href="#repairs">Repairs</a>
+        <a class="tool" href="#tyres">Tyres</a>
+        <a class="tool" href="#air-conditioning">Air-conditioning</a>
+        <a class="tool" href="#bodywork">Bodywork</a>
+        <a class="tool" href="#inspection">Inspection</a>
+        <a class="tool" href="#ev-services">EV services</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2>Workshop result card</h2>
+    </div>
+    <div class="service-grid">
+      <article class="service-card"><h3>Workshop name</h3><p>Location · Services · Opening hours · Rating / trust information where available · Distance · Contact / enquiry action</p></article>
+      <article class="service-card" id="insurance"><h3>Get an Insurance Quote</h3><p>Explain briefly what information the user needs before opening the form.</p></article>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="footer-inner">
+    <nav aria-label="Footer navigation">
+      <a href="index.html">Home</a> ·
+      <a href="buy.html">Buy</a> ·
+      <a href="sell.html">Sell</a> ·
+      <a href="maintain.html">Maintain</a> ·
+      <a href="drive.html">Drive</a> ·
+      <a href="index.html#resources">Resources</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>

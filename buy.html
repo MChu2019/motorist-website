@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Buy — Motorist</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-nav" aria-label="Open navigation">☰</button>
+    <a class="brand" href="index.html">Motorist</a>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="buy.html">Buy</a>
+      <a href="sell.html">Sell</a>
+      <a href="maintain.html">Maintain</a>
+      <a href="drive.html">Drive</a>
+      <a href="index.html#resources">Resources</a>
+    </nav>
+    <a class="header-action" href="sell.html">Sell My Car</a>
+  </div>
+  <nav id="mobile-nav" class="mobile-nav" data-mobile-nav aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="buy.html">Buy</a>
+    <a href="sell.html">Sell</a>
+    <a href="maintain.html">Maintain</a>
+    <a href="drive.html">Drive</a>
+    <a href="index.html#resources">Resources</a>
+    <a class="mobile-primary" href="sell.html">Sell My Car</a>
+  </nav>
+</header>
+
+<main class="page">
+  <section class="hero">
+    <div class="hero-copy">
+      <h1>Find a car that fits your needs and budget.</h1>
+      <p>Browse thousands of verified new and used vehicles in Singapore.</p>
+    </div>
+    <figure class="image-card">
+      <img src="images/car-listing.PNG" alt="Used car displayed for sale in Singapore" width="1200" height="800">
+    </figure>
+  </section>
+
+  <section class="panel" aria-labelledby="search-title">
+    <div class="section-head">
+      <h2 id="search-title">Make / model</h2>
+    </div>
+    <form action="#" method="get">
+      <div class="filter-grid">
+        <div class="field">
+          <label for="make-model">Make / model</label>
+          <input id="make-model" name="make-model" type="text">
+        </div>
+        <div class="field">
+          <label for="price-range">Price range</label>
+          <select id="price-range" name="price-range">
+            <option>Price range</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="monthly">Monthly instalment</label>
+          <select id="monthly" name="monthly">
+            <option>Monthly instalment</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="depreciation">Depreciation</label>
+          <select id="depreciation" name="depreciation">
+            <option>Depreciation</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="registration-year">Registration year</label>
+          <select id="registration-year" name="registration-year">
+            <option>Registration year</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="vehicle-type">Vehicle type</label>
+          <select id="vehicle-type" name="vehicle-type">
+            <option>Vehicle type</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-head">
+          <h2>New / Used</h2>
+        </div>
+        <div class="filter-grid">
+          <div class="field"><label for="condition">New / Used</label><select id="condition"><option>New / Used</option></select></div>
+          <div class="field"><label for="make">Make</label><select id="make"><option>Make</option></select></div>
+          <div class="field"><label for="model">Model</label><select id="model"><option>Model</option></select></div>
+          <div class="field"><label for="price">Price</label><select id="price"><option>Price</option></select></div>
+          <div class="field"><label for="annual-depreciation">Annual depreciation</label><select id="annual-depreciation"><option>Annual depreciation</option></select></div>
+          <div class="field"><label for="coe-remaining">COE remaining</label><select id="coe-remaining"><option>COE remaining</option></select></div>
+          <div class="field"><label for="mileage">Mileage</label><select id="mileage"><option>Mileage</option></select></div>
+          <div class="field"><label for="number-of-owners">Number of owners</label><select id="number-of-owners"><option>Number of owners</option></select></div>
+          <div class="field"><label for="fuel-type">Fuel type</label><select id="fuel-type"><option>Fuel type</option></select></div>
+          <div class="field"><label for="transmission">Transmission</label><select id="transmission"><option>Transmission</option></select></div>
+        </div>
+      </div>
+
+      <div class="form-action">
+        <button class="primary-action" type="submit">View Vehicles</button>
+      </div>
+    </form>
+  </section>
+
+  <section class="section" aria-labelledby="results-title">
+    <div class="section-head">
+      <h2 id="results-title">Vehicle image</h2>
+    </div>
+    <ul class="list">
+      <li>Make / model</li>
+      <li>Price</li>
+      <li>Monthly instalment</li>
+      <li>Annual depreciation</li>
+      <li>Registration date</li>
+      <li>COE remaining</li>
+      <li>Mileage</li>
+      <li>Number of owners</li>
+      <li>Dealer</li>
+      <li>Key selling point</li>
+    </ul>
+    <a class="task-card" href="#vehicle">
+      <strong>View vehicle</strong>
+    </a>
+  </section>
+</main>
+<footer>
+  <div class="footer-inner">
+    <nav aria-label="Footer navigation">
+      <a href="index.html">Home</a> ·
+      <a href="buy.html">Buy</a> ·
+      <a href="sell.html">Sell</a> ·
+      <a href="maintain.html">Maintain</a> ·
+      <a href="drive.html">Drive</a> ·
+      <a href="index.html#resources">Resources</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>
